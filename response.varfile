@@ -1,8 +1,13 @@
-#install4j response file for JIRA Software
-backupJira$Boolean=true
-executeLauncherAction$Boolean=true
+#install4j response file for JIRA Software 7.9.0
+#Tue Apr 17 22:45:13 EDT 2018
+launch.application$Boolean=true
+rmiPort$Long=8005
+app.jiraHome=/var/atlassian/application-data/jira
 app.install.service$Boolean=true
+existingInstallationDir=/opt/JIRA Software
 sys.confirmedUpdateInstallationString=false
-existingInstallationDir=/opt/atlassian/jira
 sys.languageId=en
 sys.installationDir=/opt/atlassian/jira
+executeLauncherAction$Boolean=true
+httpPort$Long=8080
+portChoice=default
