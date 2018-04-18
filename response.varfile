@@ -1,0 +1,8 @@
+#install4j response file for JIRA Software
+backupJira$Boolean=true
+executeLauncherAction$Boolean=true
+app.install.service$Boolean=true
+sys.confirmedUpdateInstallationString=false
+existingInstallationDir=/opt/atlassian/jira
+sys.languageId=en
+sys.installationDir=/opt/atlassian/jira
